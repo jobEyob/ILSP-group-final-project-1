@@ -25,4 +25,4 @@ footer {
 </div>
 </body>
 </html>
-<?php  include $_SERVER['DOCUMENT_ROOT'] . '/ILSP-group-final-project/pages/login.php'; ?>
+<?php  include $_SERVER['DOCUMENT_ROOT'] . '/ILSP-group-final-project/pages/element/login.php'; ?>
