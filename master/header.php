@@ -46,13 +46,47 @@ $title = "ILSP-final project";
             <!--the link for registration to home page contact is not working -->
             <li><a href="/ILSP-group-final-project/index.php#contact">Contact</a></li>
           </ul>
+  <!--the code will be show depend on the user session-->
+  <!--for not logged user
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/ILSP-group-final-project/pages/request_for_reg.php"><span class="glyphicon glyphicon-registration-mark"></span> Registration</a></li>
-            <li><a  data-toggle="model" href="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a data-toggle="modal" data-target="#myModal" ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </ul>
         </div>
-      </div>
 
+  -->
+
+  <!--code for logged user-->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/ILSP-group-final-project/pages/organization_portal.php"><span class="glyphicon glyphicon glyphicon-user"></span> user name</a></li>
+        <li>
+          <div class="dropdown">
+            <style>
+              #menu1{
+                font-size: 12px !important;
+                line-height: 1.42857142 !important;
+                letter-spacing: 4px;
+                color: #000d1a !important;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                line-height:20px;
+                padding: 10px 15px;
+                text-decoration: none;
+                background-color: transparent;
+              }
+            </style>
+           <a href="#" id="menu1" data-toggle="dropdown">Setting
+           <span class="caret"></span></button>
+           <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+             <li role="presentation"><a role="menuitem" href="/ILSP-group-final-project/pages/account_setting.php">Account Seting</a></li>
+             <li role="presentation"><a role="menuitem" href="/ILSP-group-final-project/pages/update_service.php">Update Service</a></li>
+             <li role="presentation" class="divider"></li>
+             <li role="presentation"><a role="menuitem" href="#">Log Out</a></li>
+           </ul>
+          </div>
+        </li>
+      </ul>
+  </div>
       <!--this for category list navbar-->
       <nav id="nav_category" class="navbar" navbar-default style="display: none">
         <div class="container-fluid">

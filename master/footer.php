@@ -15,7 +15,6 @@ footer {
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
 
-
     <br>
 
     <?php

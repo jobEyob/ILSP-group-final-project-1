@@ -22,7 +22,10 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" >Log In</button>
+        <!--<button type="button" class="btn btn-default" >Log In</button>-->
+          <!--while be change in to php and anchor "<a></a>" tag will be remove-->
+          <a href="/ILSP-group-final-project/pages/organization_portal.php">Log In</a>
+
         <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
       </div>
     </div>

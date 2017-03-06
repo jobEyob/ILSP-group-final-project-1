@@ -78,6 +78,10 @@ footer .glyphicon {
 .carousel-caption h3 {
   color: #fff !important;
 }
+
+.modal-dialog{
+margin-top: 70px;
+}
 @media (max-width: 400px) {
   .carousel-caption {
     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */

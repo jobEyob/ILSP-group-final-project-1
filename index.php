@@ -1,9 +1,6 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . '/ILSP-group-final-project/master/header.php';
-?>
-
-
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/ILSP-group-final-project/pages/slide.php'; ?>
+include $_SERVER['DOCUMENT_ROOT'] . '/ILSP-group-final-project/pages/element/slide.php'; ?>
 <div class="container">
   <!-- Container (advertasemant Section) -->
   <div id="portfolio" class="container-fluid text-center bg-grey">
